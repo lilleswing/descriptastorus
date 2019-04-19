@@ -17,10 +17,10 @@ As such, since the sample data was primarily used for chemical screening against
 
 Future work should include detecting ill-fitting distributions, such as for fr_pyridine as seen in Figure X, and using alternative methods, such as empirical distributions.
 
-![img/fr_isocyan](fr_isocyan.png)
-![img/kappa2](kappa2.png)
-![img/fr_pyridine](fr_pyridine.png)
-![img/balabanj](balabanj.png)
+![fr_isocyan](img/fr_isocyan.png)
+![kappa2](img/kappa2.png)
+![fr_pyridine](img/fr_pyridine.png)
+![balabanj](img/balabanj.png)
 
 Figure 1 Four example distributions fit to a random sample of 100,000 of compounds used for biological screening in Novartis.
 Note that some distributions for discrete calculations, such as fr_pyridine are not fit especially well.
