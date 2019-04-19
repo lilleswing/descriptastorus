@@ -1,6 +1,6 @@
-Methods
+### Methods
 
-Feature Normalization
+### Feature Normalization
 
 Features used in conjunction with the graph convolution are computed with the RDKit toolkit[X].
 The neural network architecture requires that the features are appropriately scaled to prevent features with large ranges dominating smaller ranged features as well as preventing issues where features in the training set are not drawn from the same sample distribution as the testing sets.
@@ -17,17 +17,17 @@ As such, since the sample data was primarily used for chemical screening against
 
 Future work should include detecting ill-fitting distributions, such as for fr_pyridine as seen in Figure X, and using alternative methods, such as empirical distributions.
 
-![fr_isocyan](fr_isocyan.png)
-![kappa2](kappa2.png)
-![fr_pyridine](fr_pyridine.png)
-![balabanj](balabanj.png)
+![img/fr_isocyan](fr_isocyan.png)
+![img/kappa2](kappa2.png)
+![img/fr_pyridine](fr_pyridine.png)
+![img/balabanj](balabanj.png)
 
 Figure 1 Four example distributions fit to a random sample of 100,000 of compounds used for biological screening in Novartis.
 Note that some distributions for discrete calculations, such as fr_pyridine are not fit especially well.
 This is an active area for improvement.
 
 
-List of descriptors used:
+### List of descriptors used:
 1. BalabanJ
 2. BertzCT
 3. Chi0
@@ -232,4 +232,5 @@ List of descriptors used:
 
 
 [X] RDKit 2018.09.01
+
 [X] scikit learn version …
